@@ -27,6 +27,3 @@ Este projeto Spring Boot fornece uma API para a Seguros Unimed, incluindo contro
 ## Finalidade da API
 - Gerenciamento de informações de clientes ou operações relacionadas.
 
----
-
-Este README fornece uma visão geral do projeto "unimed-test".

@@ -1,24 +1,32 @@
-# Custumer Service
 
-### Requisitos
+# unimed-test
 
-1. JDK 11
-1. Maven 3
+## Descrição da API
+Este projeto Spring Boot fornece uma API para a Seguros Unimed, incluindo controladores REST para operações relacionadas a clientes.
 
-### Comandos Prova Prática
+## Versão do Java
+- Java 11
 
-1. Clone o projeto: `https://github.com/filipemaulerm/segurosunimed-test.git`
-2. Execute a aplicação.
-3. Acesse: `http://localhost:8080/customers`
-4. Neste ponto será retornado a lista de clientes pré-cadastrada.
-5. Faça filtros de cliente nas buscas por nome, email e genero.
-6. Adicione endpoints para criar um novo cliente, editar um cliente e excluir um cliente.
-7. Valide os dados antes de cadastrar ou editar.
-8. Pagine a listagem de clientes.
-9. Possibilite o cadastro de múltiplos endereços para um cliente.
-10. No cadastro de endereço permita inserir apenas o CEP carregando os dados via consumo do serviço: https://viacep.com.br/
-11. Faça filtros de clientes nas buscas agora para os campos cidade e estado
-12. Envie a url do seu repositório no github para análise.
+## Frameworks e Tecnologias Utilizadas
+- **Spring Boot** (Versão 2.5.6): Para criar aplicações web e serviços REST.
+- **Spring Data JPA**: Para interação com o banco de dados.
+- **Swagger**: Para documentação de APIs REST.
 
-Obs.: Será um diferencial implementações como: tratamento de exceções (RestControllerAdvice), testes, validações, uso de mecanismos modernos da linguagem, frontend, autenticação e documentação. 
+## Como Executar
+1. Instale o Java 11 e o Maven.
+2. Na raiz do projeto, execute: `mvn spring-boot:run`.
+3. A aplicação iniciará localmente.
 
+## Acesso ao Swagger
+- Acesse `http://localhost:8080/swagger-ui.html` para a documentação da API (se configurado).
+
+## Testes
+- Testes unitários e de integração estão presentes.
+- Para executá-los, na raiz do projeto, execute `mvn test`.
+
+## Finalidade da API
+- Gerenciamento de informações de clientes ou operações relacionadas.
+
+---
+
+Este README fornece uma visão geral do projeto "unimed-test".

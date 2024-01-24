@@ -18,7 +18,7 @@ Este projeto Spring Boot fornece uma API para a Seguros Unimed, incluindo contro
 3. A aplicação iniciará localmente.
 
 ## Acesso ao Swagger
-- Acesse `http://localhost:8080/swagger-ui.html` para a documentação da API (se configurado).
+- Acesse `http://localhost:8080/swagger-ui/` para a documentação da API (se configurado).
 
 ## Testes
 - Testes unitários e de integração estão presentes.
